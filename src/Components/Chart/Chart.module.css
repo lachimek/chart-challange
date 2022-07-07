@@ -1,0 +1,32 @@
+.chart__with_balance {
+    width: 34rem;
+}
+
+.chart__container {
+    padding: 2rem;
+    background-color: var(--very-pale-orange);
+    border-radius: 25px;
+    width: 100%;
+}
+
+.chart__title {
+    color: var(--dark-brown);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.chart__bar_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    height: 15rem;
+}
+
+.chart__divider {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--medium-brown);
+    opacity: 20%;
+}
+

@@ -1,0 +1,26 @@
+.balance__container {
+    background-color: var(--soft-red);
+    padding: 2rem;
+    color: var(--very-pale-orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+
+.balance__container_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.balance__label {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.balance__amount {
+    font-size: 2rem;
+    font-weight: 700;
+}

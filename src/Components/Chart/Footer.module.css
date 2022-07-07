@@ -1,0 +1,34 @@
+.footer__container {
+    display: inline;
+    width: 100%;
+    margin-top: 0.8rem;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__label {
+    color: var(--medium-brown);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.footer__total {
+    color: var(--dark-brown);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.footer__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer__percentage {
+    font-weight: 700;
+    color: var(--dark-brown);
+}
